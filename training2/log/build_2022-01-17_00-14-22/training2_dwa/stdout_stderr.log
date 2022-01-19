@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/training2_dwa/training2_dwa.egg-info
+writing ../../build/training2_dwa/training2_dwa.egg-info/PKG-INFO
+writing dependency_links to ../../build/training2_dwa/training2_dwa.egg-info/dependency_links.txt
+writing entry points to ../../build/training2_dwa/training2_dwa.egg-info/entry_points.txt
+writing requirements to ../../build/training2_dwa/training2_dwa.egg-info/requires.txt
+writing top-level names to ../../build/training2_dwa/training2_dwa.egg-info/top_level.txt
+writing manifest file '../../build/training2_dwa/training2_dwa.egg-info/SOURCES.txt'
+reading manifest file '../../build/training2_dwa/training2_dwa.egg-info/SOURCES.txt'
+writing manifest file '../../build/training2_dwa/training2_dwa.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dongri/ros_training_ws/training2/build/training2_dwa/build
+creating /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib
+creating /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa
+copying training2_dwa/__init__.py -> /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa
+copying training2_dwa/test.py -> /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa
+copying training2_dwa/turtle_dwa.py -> /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa
+running install
+running install_lib
+creating /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa
+copying /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa/__init__.py -> /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa
+copying /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa/test.py -> /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa
+copying /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa/turtle_dwa.py -> /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa
+byte-compiling /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa/test.py to test.cpython-36.pyc
+byte-compiling /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa/turtle_dwa.py to turtle_dwa.cpython-36.pyc
+running install_data
+creating /home/dongri/ros_training_ws/training2/install/training2_dwa/share/ament_index
+creating /home/dongri/ros_training_ws/training2/install/training2_dwa/share/ament_index/resource_index
+creating /home/dongri/ros_training_ws/training2/install/training2_dwa/share/ament_index/resource_index/packages
+copying resource/training2_dwa -> /home/dongri/ros_training_ws/training2/install/training2_dwa/share/ament_index/resource_index/packages
+copying package.xml -> /home/dongri/ros_training_ws/training2/install/training2_dwa/share/training2_dwa
+running install_egg_info
+Copying ../../build/training2_dwa/training2_dwa.egg-info to /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa-0.0.0-py3.6.egg-info
+running install_scripts
+writing list of installed files to '/home/dongri/ros_training_ws/training2/build/training2_dwa/install.log'

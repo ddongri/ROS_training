@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/training1_turtlesim/training1_turtlesim.egg-info
+writing ../../build/training1_turtlesim/training1_turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../../build/training1_turtlesim/training1_turtlesim.egg-info/dependency_links.txt
+writing entry points to ../../build/training1_turtlesim/training1_turtlesim.egg-info/entry_points.txt
+writing requirements to ../../build/training1_turtlesim/training1_turtlesim.egg-info/requires.txt
+writing top-level names to ../../build/training1_turtlesim/training1_turtlesim.egg-info/top_level.txt
+writing manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+reading manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+writing manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build
+creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib
+creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+copying training1_turtlesim/__init__.py -> /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+copying training1_turtlesim/SubPub.py -> /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+running install
+running install_lib
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+copying /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim/__init__.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+copying /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim/SubPub.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+byte-compiling /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim/SubPub.py to SubPub.cpython-36.pyc
+running install_data
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index/packages
+copying resource/training1_turtlesim -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/launch
+copying launch/circling.launch.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/launch
+creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/param
+running install_egg_info
+Copying ../../build/training1_turtlesim/training1_turtlesim.egg-info to /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim-0.0.0-py3.6.egg-info
+running install_scripts
+Installing SubPub script to /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/training1_turtlesim
+writing list of installed files to '/home/dongri/ros_training_ws/training1/build/training1_turtlesim/install.log'

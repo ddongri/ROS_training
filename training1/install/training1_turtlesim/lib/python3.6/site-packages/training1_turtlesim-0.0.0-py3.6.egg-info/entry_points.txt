@@ -1,0 +1,3 @@
+[console_scripts]
+SubPub = training1_turtlesim.SubPub:main
+

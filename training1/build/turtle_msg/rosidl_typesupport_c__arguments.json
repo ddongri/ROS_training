@@ -1,0 +1,17 @@
+{
+  "package_name": "turtle_msg",
+  "output_dir": "/home/dongri/ros_training_ws/training1/build/turtle_msg/rosidl_typesupport_c/turtle_msg",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/dongri/ros_training_ws/training1/build/turtle_msg/rosidl_adapter/turtle_msg:msg/Custom.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/dongri/ros_training_ws/training1/build/turtle_msg/rosidl_adapter/turtle_msg/msg/Custom.idl"
+  ]
+}

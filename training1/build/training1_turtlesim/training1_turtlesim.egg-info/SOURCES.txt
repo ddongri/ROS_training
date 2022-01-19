@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/training1_turtlesim/training1_turtlesim.egg-info/PKG-INFO
+../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt
+../../build/training1_turtlesim/training1_turtlesim.egg-info/dependency_links.txt
+../../build/training1_turtlesim/training1_turtlesim.egg-info/entry_points.txt
+../../build/training1_turtlesim/training1_turtlesim.egg-info/requires.txt
+../../build/training1_turtlesim/training1_turtlesim.egg-info/top_level.txt
+../../build/training1_turtlesim/training1_turtlesim.egg-info/zip-safe
+launch/circling.launch.py
+resource/training1_turtlesim
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+training1_turtlesim/SubPub.py
+training1_turtlesim/__init__.py

@@ -1,0 +1,40 @@
+[0.316s] Invoking command in '/home/dongri/ros_training_ws/training1/src/training1_turtlesim': AMENT_PREFIX_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg LD_LIBRARY_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages:/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/training1_turtlesim build --build-base /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build install --prefix /home/dongri/ros_training_ws/training1/install/training1_turtlesim --record /home/dongri/ros_training_ws/training1/build/training1_turtlesim/install.log --single-version-externally-managed
+[0.424s] running egg_info
+[0.424s] creating ../../build/training1_turtlesim/training1_turtlesim.egg-info
+[0.424s] writing ../../build/training1_turtlesim/training1_turtlesim.egg-info/PKG-INFO
+[0.424s] writing dependency_links to ../../build/training1_turtlesim/training1_turtlesim.egg-info/dependency_links.txt
+[0.425s] writing entry points to ../../build/training1_turtlesim/training1_turtlesim.egg-info/entry_points.txt
+[0.425s] writing requirements to ../../build/training1_turtlesim/training1_turtlesim.egg-info/requires.txt
+[0.425s] writing top-level names to ../../build/training1_turtlesim/training1_turtlesim.egg-info/top_level.txt
+[0.425s] writing manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+[0.442s] reading manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+[0.443s] writing manifest file '../../build/training1_turtlesim/training1_turtlesim.egg-info/SOURCES.txt'
+[0.443s] running build
+[0.443s] running build_py
+[0.443s] creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build
+[0.443s] creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib
+[0.443s] creating /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+[0.443s] copying training1_turtlesim/__init__.py -> /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+[0.443s] copying training1_turtlesim/SubPub.py -> /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim
+[0.443s] running install
+[0.443s] running install_lib
+[0.444s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+[0.444s] copying /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim/__init__.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+[0.444s] copying /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build/lib/training1_turtlesim/SubPub.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim
+[0.444s] byte-compiling /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim/__init__.py to __init__.cpython-36.pyc
+[0.444s] byte-compiling /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim/SubPub.py to SubPub.cpython-36.pyc
+[0.444s] running install_data
+[0.445s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index
+[0.445s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index
+[0.445s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index/packages
+[0.445s] copying resource/training1_turtlesim -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/ament_index/resource_index/packages
+[0.445s] copying package.xml -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim
+[0.445s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/launch
+[0.445s] copying launch/circling.launch.py -> /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/launch
+[0.445s] creating /home/dongri/ros_training_ws/training1/install/training1_turtlesim/share/training1_turtlesim/param
+[0.445s] running install_egg_info
+[0.446s] Copying ../../build/training1_turtlesim/training1_turtlesim.egg-info to /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages/training1_turtlesim-0.0.0-py3.6.egg-info
+[0.446s] running install_scripts
+[0.456s] Installing SubPub script to /home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/training1_turtlesim
+[0.456s] writing list of installed files to '/home/dongri/ros_training_ws/training1/build/training1_turtlesim/install.log'
+[0.469s] Invoked command in '/home/dongri/ros_training_ws/training1/src/training1_turtlesim' returned '0': AMENT_PREFIX_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg LD_LIBRARY_PATH=/home/dongri/ros_training_ws/training1/install/turtle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dongri/ros_training_ws/training1/install/training1_turtlesim/lib/python3.6/site-packages:/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/training1_turtlesim build --build-base /home/dongri/ros_training_ws/training1/build/training1_turtlesim/build install --prefix /home/dongri/ros_training_ws/training1/install/training1_turtlesim --record /home/dongri/ros_training_ws/training1/build/training1_turtlesim/install.log --single-version-externally-managed

@@ -1,0 +1,196 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/dashing/include  
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dongri/ros_training_ws/training1/build/turtle_msg
+[35m[1mScanning dependencies of target turtle_msg__cpp[0m
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target turtle_msg__cpp
+[35m[1mScanning dependencies of target turtle_msg__rosidl_generator_c[0m
+[ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/turtle_msg__rosidl_generator_c.dir/rosidl_generator_c/turtle_msg/msg/custom__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libturtle_msg__rosidl_generator_c.so[0m
+[ 20%] Built target turtle_msg__rosidl_generator_c
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_introspection_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_msg/msg/custom__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_fastrtps_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/turtle_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_msg/msg/dds_fastrtps/custom__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_introspection_c[0m
+[ 34%] [32mBuilding C object CMakeFiles/turtle_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_msg/msg/custom__type_support.c.o[0m
+[ 37%] [32m[1mLinking C shared library libturtle_msg__rosidl_typesupport_introspection_c.so[0m
+[ 37%] Built target turtle_msg__rosidl_typesupport_introspection_c
+[ 41%] [32m[1mLinking CXX shared library libturtle_msg__rosidl_typesupport_introspection_cpp.so[0m
+[ 41%] Built target turtle_msg__rosidl_typesupport_introspection_cpp
+[ 44%] [32m[1mLinking CXX shared library libturtle_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 44%] Built target turtle_msg__rosidl_typesupport_fastrtps_cpp
+[ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_cpp[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_msg/msg/custom__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_fastrtps_c[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/turtle_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_msg/msg/custom__type_support_c.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libturtle_msg__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] [32m[1mLinking CXX shared library libturtle_msg__rosidl_typesupport_cpp.so[0m
+[ 65%] Built target turtle_msg__rosidl_typesupport_fastrtps_c
+[ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 68%] Built target turtle_msg__rosidl_typesupport_cpp
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/turtle_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_msg/msg/custom__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libturtle_msg__rosidl_typesupport_c.so[0m
+[ 75%] Built target turtle_msg__rosidl_typesupport_c
+[35m[1mScanning dependencies of target turtle_msg[0m
+[ 75%] Built target turtle_msg
+[35m[1mScanning dependencies of target turtle_msg__py[0m
+[ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 79%] Built target turtle_msg__py
+[35m[1mScanning dependencies of target turtle_msg__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/turtle_msg__python.dir/rosidl_generator_py/turtle_msg/msg/_custom_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/turtle_msg/libturtle_msg__python.so[0m
+[ 86%] Built target turtle_msg__python
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target turtle_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtle_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_msg/_turtle_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/turtle_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_msg/_turtle_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_msg/turtle_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_msg/turtle_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] Built target turtle_msg__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target turtle_msg__rosidl_typesupport_c__pyext
+[  6%] Built target turtle_msg__cpp
+[ 13%] Built target turtle_msg__rosidl_generator_c
+[ 24%] Built target turtle_msg__rosidl_typesupport_introspection_c
+[ 44%] Built target turtle_msg__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target turtle_msg__rosidl_typesupport_introspection_cpp
+[ 65%] Built target turtle_msg__rosidl_typesupport_fastrtps_c
+[ 65%] Built target turtle_msg__rosidl_typesupport_cpp
+[ 75%] Built target turtle_msg__rosidl_typesupport_c
+[ 75%] Built target turtle_msg
+[ 79%] Built target turtle_msg__py
+[ 86%] Built target turtle_msg__python
+[100%] Built target turtle_msg__rosidl_typesupport_c__pyext
+[100%] Built target turtle_msg__rosidl_typesupport_fastrtps_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/ament_index/resource_index/rosidl_interfaces/turtle_msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__struct.hpp
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__traits.hpp
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom.hpp
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__type_support.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__struct.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__functions.c
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__functions.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/environment/library_path.sh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_generator_c.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_generator_c.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_c.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_c.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__type_support.c
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__type_support.cpp
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_introspection_cpp.so" to ""
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg
+-- Up-to-date: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/dds_fastrtps
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/include/turtle_msg/msg/custom__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/environment/pythonpath.sh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/__init__.py
+Compiling '/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/__init__.py'...
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/msg/_custom_s.c
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/msg/_custom.py
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/msg/__init__.py
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/turtle_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/turtle_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/turtle_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/python3.6/site-packages/turtle_msg/turtle_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__python.so
+-- Set runtime path of "/home/dongri/ros_training_ws/training1/install/turtle_msg/lib/libturtle_msg__python.so" to ""
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/msg/Custom.idl
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/msg/Custom.msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/ament_index/resource_index/package_run_dependencies/turtle_msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/ament_index/resource_index/parent_prefix_path/turtle_msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/environment/ament_prefix_path.sh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/environment/path.sh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/local_setup.bash
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/local_setup.sh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/local_setup.zsh
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/ament_index/resource_index/packages/turtle_msg
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/cmake/turtle_msgConfig.cmake
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/cmake/turtle_msgConfig-version.cmake
+-- Installing: /home/dongri/ros_training_ws/training1/install/turtle_msg/share/turtle_msg/package.xml

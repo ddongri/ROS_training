@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_dwa = training2_dwa.turtle_dwa:main
+

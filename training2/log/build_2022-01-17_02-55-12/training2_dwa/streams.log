@@ -1,0 +1,24 @@
+[0.332s] Invoking command in '/home/dongri/ros_training_ws/training2/src/training2_dwa': PYTHONPATH=/home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/training2_dwa build --build-base /home/dongri/ros_training_ws/training2/build/training2_dwa/build install --prefix /home/dongri/ros_training_ws/training2/install/training2_dwa --record /home/dongri/ros_training_ws/training2/build/training2_dwa/install.log --single-version-externally-managed
+[0.444s] running egg_info
+[0.444s] writing ../../build/training2_dwa/training2_dwa.egg-info/PKG-INFO
+[0.444s] writing dependency_links to ../../build/training2_dwa/training2_dwa.egg-info/dependency_links.txt
+[0.445s] writing entry points to ../../build/training2_dwa/training2_dwa.egg-info/entry_points.txt
+[0.445s] writing requirements to ../../build/training2_dwa/training2_dwa.egg-info/requires.txt
+[0.445s] writing top-level names to ../../build/training2_dwa/training2_dwa.egg-info/top_level.txt
+[0.464s] reading manifest file '../../build/training2_dwa/training2_dwa.egg-info/SOURCES.txt'
+[0.465s] writing manifest file '../../build/training2_dwa/training2_dwa.egg-info/SOURCES.txt'
+[0.465s] running build
+[0.465s] running build_py
+[0.465s] copying training2_dwa/turtle_dwa.py -> /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa
+[0.465s] running install
+[0.465s] running install_lib
+[0.466s] copying /home/dongri/ros_training_ws/training2/build/training2_dwa/build/lib/training2_dwa/turtle_dwa.py -> /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa
+[0.466s] byte-compiling /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa/turtle_dwa.py to turtle_dwa.cpython-36.pyc
+[0.468s] running install_data
+[0.468s] running install_egg_info
+[0.469s] removing '/home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa-0.0.0-py3.6.egg-info' (and everything under it)
+[0.469s] Copying ../../build/training2_dwa/training2_dwa.egg-info to /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages/training2_dwa-0.0.0-py3.6.egg-info
+[0.470s] running install_scripts
+[0.481s] Installing turtle_dwa script to /home/dongri/ros_training_ws/training2/install/training2_dwa/lib/training2_dwa
+[0.481s] writing list of installed files to '/home/dongri/ros_training_ws/training2/build/training2_dwa/install.log'
+[0.493s] Invoked command in '/home/dongri/ros_training_ws/training2/src/training2_dwa' returned '0': PYTHONPATH=/home/dongri/ros_training_ws/training2/install/training2_dwa/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/training2_dwa build --build-base /home/dongri/ros_training_ws/training2/build/training2_dwa/build install --prefix /home/dongri/ros_training_ws/training2/install/training2_dwa --record /home/dongri/ros_training_ws/training2/build/training2_dwa/install.log --single-version-externally-managed
